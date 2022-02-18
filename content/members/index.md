@@ -11,3 +11,4 @@ date: 2016-08-24 17:51:42
 * Austin404
 * xoreaxeax [[github]](https://github.com/x0reaxeax) | `xorring all the registers`
 * Vollhard
+* anusO1 [[website]](http://anuso1.duckdns.org) | `i am literally mr robot`
