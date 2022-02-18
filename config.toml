@@ -1,3 +1,64 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'SixSixtySix Corp.'
+theme = "cactus"
+
+[params]
+colortheme = "dark"
+description = "KEEPING THE SCENE ALIVE 👾 🚀"
+mainSection = "posts"
+mainSectionTitle = "Writings"
+showAllPostsOnHomePage = false
+postsOnHomePage = 5
+showProjectsList = true
+googleAnalyticsAsync = true
+rss = true
+showAllPostsArchive = false
+
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Writings"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
+
+[[menu.main]]
+name = "Members"
+url = "/members"
+weight = 5
+
+[[params.social]]
+  name = "github"
+  link = "https://github.com/6Sixty6"
+
+[[params.social]]
+  name = "discord"
+  link = "https://discord.gg/mRu7YRxJS4"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+
+
